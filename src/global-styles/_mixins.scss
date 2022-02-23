@@ -1,0 +1,9 @@
+@mixin theme-button {
+  background: $wine-dark-color;
+  border: none;
+  color: $white-color;
+  &:hover {
+    background: $white-color;
+    color: $wine-dark-color;
+  }
+}

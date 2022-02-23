@@ -1,0 +1,25 @@
+.subtotal {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background: $wine-theme-color;
+  border: 1px solid #dddddd;
+  color: $white-color;
+  font-family: $montserrat-font;
+  p {
+    font-size: 22px;
+  }
+  &__gift {
+    font-size: 16px;
+    margin-bottom: 16px;
+    input {
+      margin-right: 10px;
+    }
+  }
+
+  button {
+    @include theme-button;
+  }
+}

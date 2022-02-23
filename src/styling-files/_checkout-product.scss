@@ -1,0 +1,35 @@
+.checkoutProduct {
+  margin-bottom: 50px;
+  &__img {
+    img {
+      max-height: 200px;
+      width: 100%;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+  }
+  &__information {
+    &__title {
+      font-size: $checkout-title;
+      font-family: $heading-cursive;
+    }
+    &__details {
+      font-family: $montserrat-font;
+      font-size: $checkout-info;
+      margin-bottom: 10px;
+    }
+    &__price {
+      margin-bottom: 10px;
+    }
+    &__rating {
+      display: flex;
+      margin-bottom: 10px;
+    }
+    &__button {
+      button {
+        margin-bottom: 10px;
+        @include theme-button;
+      }
+    }
+  }
+}

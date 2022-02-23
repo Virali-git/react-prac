@@ -1,0 +1,19 @@
+.home {
+  .banner__image__wrapper {
+    background: $wine-theme-color;
+  }
+
+  margin-top: 110px;
+  &__image {
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(1, 1, 1, 1), rgba(0, 0, 0, 0));
+  }
+  .product__list__wrapper {
+    background: $wine-theme-color;
+  }
+  .product__row {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}

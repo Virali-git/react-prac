@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./global-styles/variables";
+@import "./global-styles/global";
+@import "./global-styles/mixins";
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,100;1,200;1,300&display=swap");
+
+//global scss
+//@import "./styling-files/global";
+
+//add new files
+@import "./styling-files/header";
+@import "./styling-files/home";
+@import "./styling-files/product";
+@import "./styling-files/checkout";
+@import "./styling-files/subtotal";
+@import "./styling-files/checkout-product";
+@import "./styling-files/login";

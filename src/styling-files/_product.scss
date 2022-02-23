@@ -1,0 +1,31 @@
+.product {
+  background: $white-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  font-family: $montserrat-font;
+
+  &__title {
+    font-family: $heading-cursive;
+    font-size: 60px;
+  }
+  &__info {
+  }
+  &__img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  &__price {
+  }
+  &__rating {
+    display: flex;
+  }
+  button {
+    @include theme-button;
+  }
+}
